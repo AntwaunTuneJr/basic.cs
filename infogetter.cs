@@ -15,7 +15,7 @@ namespace infogetter
         string user_name = Console.ReadLine();
         
         Console.WriteLine("And where are you from?");
-        string from = Console.ReadLine();
+        string pob = Console.ReadLine();
         
         Console.WriteLine("And how old are you?");
         string age_str = Console.ReadLine();
