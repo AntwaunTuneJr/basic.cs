@@ -5,21 +5,32 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace infogetter
+namespace info
 {
-    class Gather
+    class Get
     {
         static void Main(string[] args)
         {
+
+        
+        }
+        
+        public void name()
+        {
         Console.WriteLine("What is your name?");
         string user_name = Console.ReadLine();
+        }
         
-        Console.WriteLine("And where are you from?");
+        public void pob() 
+        {
+         Console.WriteLine("And where are you from?");
         string pob = Console.ReadLine();
-        
+        }
+
+        public void age() 
+        {
         Console.WriteLine("And how old are you?");
         string age_str = Console.ReadLine();
-        
         }
     }
 }
